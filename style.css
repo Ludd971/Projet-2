@@ -1,8 +1,8 @@
 body{
 	display: flex;
 	text-align: justify;
-	/*width: 665px;
-	height: 939px;*/
+	width: 665px;
+	height: 939px;
 }
 aside{
 	display: flex;
@@ -17,7 +17,7 @@ aside h3{
 	background-color: black;
 	color: #FFC107;
 }
-.fas{
+aside .fas{
 
 	border-width: 1px;
 	border-style: solid ;
@@ -40,11 +40,16 @@ h4, h5{
 	line-height: 0.5em;
 }
 time{
-	float: left;
+	display: flex;
+	flex-direction: row;
 	margin-left: 15px;
+	width: 125px;
+	height: 25px;
+	border: solid 1px;
 }
-.rside{
-	float: right;
+div{
+	display: flex;
+	flex-direction: row-reverse;
 }
 #rec{
 	display: flex;
