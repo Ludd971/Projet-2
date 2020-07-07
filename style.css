@@ -7,12 +7,19 @@ aside{
 	flex-direction: column;
 	justify-content: space-around;
 	width: 33%;
+	height: auto;
 	background-color: #FFC107;
 }
 aside h3{
 	text-align: center;
 	background-color: black;
 	color: #FFC107;
+}
+.fas{
+	font-size: 40px;
+	border-width: 1px;
+	border-style: solid ;
+	border-radius: 50% 50% 50% 50%;
 }
 aside p{
 	margin-left: 30px;
