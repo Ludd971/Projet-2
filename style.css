@@ -1,11 +1,13 @@
 body{
 	display: flex;
 	text-align: justify;
+	/*width: 665px;
+	height: 939px;*/
 }
 aside{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: stretch;
 	width: 33%;
 	height: auto;
 	background-color: #FFC107;
@@ -16,7 +18,7 @@ aside h3{
 	color: #FFC107;
 }
 .fas{
-	
+
 	border-width: 1px;
 	border-style: solid ;
 	border-radius: 50% 50% 50% 50%;
@@ -26,16 +28,23 @@ aside p{
 	margin-right: 30px; 
 }
 main{
-	margin-left: 50px;
+	margin-left: 25px;
 }
 main h3{
 	border-bottom: solid 1px yellow;
+}
+h4, h5{
+	line-height: 0.5em;
+}
+time{
+	float: left;
+	margin-left: 15px;
+}
+.rside{
+	float: right;
 }
 #rec{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-}
-.rec{
-
 }
