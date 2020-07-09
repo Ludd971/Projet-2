@@ -8,7 +8,7 @@ body{
 aside{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	width: 33%;
 	height: auto;
 	background-color: #FF7043;
@@ -31,18 +31,19 @@ aside p{
 .underline{
 	text-decoration: underline red;
 }
-.nth-child(h3){
+.item:nth-child(1){
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column-reverse;*/
 }
 main{
-	margin-left: 20px;
+	margin-left: 50px;
 }
 main h3{
 	border-bottom: solid 1px red;
+	margin-top: none;
 }
 h4, h5{
-	margin-bottom: none;
+	margin-bottom: -10px;
 }
 article{
 	/*display: flex;
@@ -52,7 +53,7 @@ article{
 }
 time{
 	margin-top: -10px;
-	margin-left: 30px;
+	margin-left: 20px;
 	width: 175px;
 	height: 50px;
 	border: solid 1px;
@@ -60,5 +61,10 @@ time{
 .rside{
 	display: flex;
 	flex-direction: row-reverse;
-
+}
+#rec{
+	display: flex;
+	justify-content: space-between;
+	height: 0px;
+	line-height: 15px;
 }
