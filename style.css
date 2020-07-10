@@ -67,6 +67,8 @@ time{
 #rec{
 	display: flex;
 	justify-content: space-between;
+	text-align: left;
 	height: 0px;
 	line-height: 15px;
+
 }
