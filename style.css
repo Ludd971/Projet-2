@@ -51,17 +51,16 @@ main h3{
 h4, h5{
 	margin-bottom: -10px;
 	display: flex;
-	flex-direction: row-reverse;
+	flex-direction: row;
 	text-align: center;
 	border: solid 1px;
 	height: auto;
 	width: auto;
 }
-article{
+main article{
 	display: flex;
 	flex-direction: row;
-	width: 33%;
-	height: auto;
+	
 }
 time{
 	margin-top: -10px;
