@@ -34,6 +34,16 @@ aside p{
 main{
 	margin-left: 50px;
 }
+main .fas{
+	color: red;
+}
+main .fa-circle{
+	font-size: 10px;
+}
+main .fa-graduation-cap, .fa-toolbox, .fa-pencil-alt{
+	font-size: 25px;
+}
+
 main h3{
 	border-bottom: solid 1px red;
 	margin-top: none;
@@ -48,8 +58,8 @@ h4, h5{
 	width: auto;
 }
 article{
-	/*display: flex;
-	flex-direction: row;*/
+	display: flex;
+	flex-direction: row;
 	width: 33%;
 	height: auto;
 }
@@ -60,15 +70,8 @@ time{
 	height: 50px;
 	border: solid 1px;
 }
-.rside{
+.rec{
 	display: flex;
-	flex-direction: row-reverse;
-}
-#rec{
-	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
-	text-align: left;
-	height: 0px;
-	line-height: 15px;
-
 }
