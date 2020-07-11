@@ -31,6 +31,11 @@ aside p{
 .underline{
 	text-decoration: underline red;
 }
+.loisirs{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 main{
 	margin-left: 50px;
 }
@@ -62,12 +67,16 @@ main article{
 	flex-direction: row;
 	
 }
+.time{
+	margin-left: 30px;
+}
 time{
 	margin-top: -10px;
 	margin-left: 20px;
-	width: 175px;
-	height: 50px;
+	width: auto;
+	height: auto;
 	border: solid 1px;
+	flex-wrap: nowrap;
 }
 .rec{
 	display: flex;
