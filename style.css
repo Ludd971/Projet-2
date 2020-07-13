@@ -60,8 +60,12 @@ main article{
 	width: auto;
 	height: auto;
 }
-h4{
+main h3{
+	display: inline;
+}
+main h4{
 	font-weight: bold;
+	display: inline;
 }
 time{
 	display: flex;
@@ -83,11 +87,12 @@ time{
 	flex-direction: row;
 	justify-content: space-between;
 	width: auto;
-	height: auto;
-	border: solid green 1px;
+	height: 75px;
+	border: solid green 3px;
 }
 .bot{
+	flex-direction: column;
+	display: inline;
 	width: 150px;
 	height: 75px;
-
 }
