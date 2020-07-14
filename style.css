@@ -66,13 +66,13 @@ main h3{
 main article{
 	display: flex;
 	flex-direction: row;
-	border: solid 1px blue;
 	width: auto;
 	height: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 main h3{
 	display: inline;
-	margin: -10px;
 }
 main h4{
 	font-weight: bold;
@@ -91,7 +91,6 @@ time{
 
 }
 .lside{
-	border: solid 1px;
 	height: auto;
 	width: 60%;
 		
@@ -102,7 +101,7 @@ time{
 	justify-content: space-between;
 	width: auto;
 	height: 75px;
-	border: solid green 3px;
+	
 }
 .bot{
 	flex-direction: column;
