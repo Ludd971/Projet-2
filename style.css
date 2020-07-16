@@ -21,6 +21,12 @@ aside h3{
 	border: solid 1px white;
 	font-size: 30px;
 }
+.photo{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	border: solid 1px white;
+}
 aside .fas{
 	justify-content: space-between;
 	font-size: 50px;
@@ -61,10 +67,12 @@ header{
 }
 h1{
 	font-size: 60px;
-	margin: 0px;
+	margin-bottom: 0px;
+	margin-top: 90px;
 }
 h2{
 	margin-top: 0px;
+	margin-bottom: 90px;
 }
 .h3{
 	display: flex;
