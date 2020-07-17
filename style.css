@@ -4,6 +4,7 @@ body{
 	font-size: small;
 	/*width: 665px;
 	height: 939px;*/
+	max-width: 1200px
 }
 aside{
 	display: flex;
@@ -62,7 +63,6 @@ main .fa-graduation-cap, .fa-toolbox, .fa-pencil-alt{
 	font-size: 35px;
 }
 header{
-	border: solid black 1px;
 	flex-wrap: nowrap;
 }
 h1{
@@ -76,13 +76,14 @@ h2{
 }
 .h3{
 	display: flex;
-	text-decoration: underline red;
-	text-underline-position: under 0em;
+}
+#trait{
+	width: 100%;
+	border-bottom: solid 1px red;
 }
 main h3{
-	margin-block-start: 0;
-	margin-top: none;
-	padding-left: 20px;
+	margin-top: -1em;
+	padding-left: 50px;
 	font-size: 30px;
 }
 main article{
@@ -94,22 +95,24 @@ main article{
 }
 main h4{
 	font-weight: bold;
-	margin-block-start: 0em;
-    margin-block-end: 0em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 main h5{
-	margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-}
-time{
-	display: flex;
-	width: 200px;
-	margin-left: 15px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 .rside{
 	display: flex;
-	width: auto;
+	flex-direction: column;
 	width: 40%
+}
+.lieu{
+	margin-left: 15px;
+}
+time{
+	width: 200px;
+	margin-left: 15px;
 }
 .lside{
 	width: 60%;
