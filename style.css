@@ -1,32 +1,36 @@
 body{
+	font-family: sans-serif, comic sans ms;
 	display: flex;
 	text-align: justify;
-	font-size: small;
 	/*width: 665px;
 	height: 939px;*/
-	max-width: 1200px
+	max-width: 1200px;
+
 }
 aside{
 	display: flex;
 	align-content: stretch;
 	flex-direction: column;
 	justify-content: space-around;
-	width: 33%;
+	width: 35%;
 	background-color: #FF7043;
 }
 aside h3{
 	text-align: center;
-	background-color: black;
+	background-color: #424242;
 	color: #FF7043;
 	padding-bottom: 
 	border: solid 1px white;
-	font-size: 30px;
+	font-size: 40px;
 }
 .photo{
 	display: flex;
 	justify-content: space-around;
 	text-align: center;
-	border: solid 1px white;
+}
+#contact{
+	display: flex;
+	flex-direction: column;
 }
 aside .fas{
 	justify-content: space-between;
@@ -35,8 +39,8 @@ aside .fas{
 	border-radius: 50% 50% 50% 50%;
 }
 aside p{
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 .underline{
 	border-bottom: solid 1px red;
@@ -49,7 +53,7 @@ aside p{
 main{
 	margin-left: 50px;
 	margin-right: 50px;
-	width: 67%;
+	width: 65%;
 
 }
 main .fas{
@@ -64,6 +68,9 @@ main .fa-graduation-cap, .fa-toolbox, .fa-pencil-alt{
 }
 header{
 	flex-wrap: nowrap;
+	padding-top: 1em;
+	padding-bottom: 4em;
+
 }
 h1{
 	font-size: 60px;
@@ -79,24 +86,27 @@ h2{
 }
 #trait{
 	width: 100%;
-	border-bottom: solid 1px red;
+	border-bottom: solid 2px red;
 }
 main h3{
 	margin-top: -1em;
+	margin-bottom: 0em;
 	padding-left: 50px;
 	font-size: 30px;
 	margin-left: 20px;
+	display: flex;
+	flex-wrap: nowrap;
 }
 main article{
 	display: flex;
 	flex-direction: row;
 	width: auto;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 35px;
+	padding-bottom: 20px;
 }
 main h4{
 	font-weight: bold;
-	margin-top: 0.5em;
+	margin-top: 0em;
 	margin-bottom: 0.5em;
 }
 main h5{
@@ -108,17 +118,21 @@ main h5{
 	flex-direction: column;
 	width: 40%
 }
+.lside{
+	display: flex;
+	flex-direction: column;
+	width: 60%;	
+}
 .lieu{
 	margin-left: 15px;
 }
 time{
 	width: 200px;
-	margin-left: 15px;
+	margin-left: 30px;
+	margin-top: -1em;
+	font-weight: bold;
 }
-.lside{
-	width: 60%;
-		
-}
+
 .rec{
 	display: flex;
 	flex-direction: row;
@@ -129,6 +143,8 @@ time{
 	flex-direction: column;
 	display: inline;
 	width: 150px;
-	padding-bottom: 
-	
+	padding-bottom: 	
+}
+main p{
+	padding-top: 0em;	
 }
