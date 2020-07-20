@@ -1,17 +1,17 @@
 body{
 	font-family: sans-serif, comic sans ms;
 	display: flex;
+	flex-direction: row;
 	text-align: justify;
-	/*width: 665px;
-	height: 939px;*/
-	max-width: 1200px;
-
+	word-break: break-word;
+	max-width: 1280px;
 }
 aside{
 	display: flex;
 	align-content: stretch;
 	flex-direction: column;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	width: 35%;
 	background-color: #FF7043;
 }
@@ -27,14 +27,18 @@ aside h3{
 	display: flex;
 	justify-content: space-around;
 	text-align: center;
+
+
 }
 #contact{
 	display: flex;
 	flex-direction: column;
+
+
 }
 aside .fas{
 	justify-content: space-between;
-	font-size: 50px;
+	font-size: 45px;
 	border: solid 1px;
 	border-radius: 50% 50% 50% 50%;
 }
@@ -67,7 +71,7 @@ main .fa-graduation-cap, .fa-toolbox, .fa-pencil-alt{
 	font-size: 35px;
 }
 header{
-	flex-wrap: nowrap;
+	
 	padding-top: 1em;
 	padding-bottom: 4em;
 
@@ -76,6 +80,11 @@ h1{
 	font-size: 60px;
 	margin-bottom: 0px;
 	margin-top: 90px;
+	font-weight: normal;
+}
+#name{
+	font-weight: bold;
+	color: red;
 }
 h2{
 	margin-top: 0px;
@@ -84,18 +93,18 @@ h2{
 .h3{
 	display: flex;
 }
-#trait{
+.trait{
 	width: 100%;
 	border-bottom: solid 2px red;
 }
 main h3{
 	margin-top: -1em;
-	margin-bottom: 0em;
+	margin-bottom: 0.5em;
 	padding-left: 50px;
 	font-size: 30px;
 	margin-left: 20px;
-	display: flex;
-	flex-wrap: nowrap;
+	/*display: flex;
+	flex-wrap: nowrap;*/
 }
 main article{
 	display: flex;
@@ -116,7 +125,7 @@ main h5{
 .rside{
 	display: flex;
 	flex-direction: column;
-	width: 40%
+	width: 40%;
 }
 .lside{
 	display: flex;
@@ -126,8 +135,9 @@ main h5{
 .lieu{
 	margin-left: 30px;
 }
-time{
-	width: 200px;
+time{ 
+	display: flex;
+	width: auto;
 	margin-left: 30px;
 	margin-top: -1em;
 	font-weight: bold;
@@ -142,9 +152,15 @@ time{
 .bot{
 	flex-direction: column;
 	display: inline;
-	width: 200px;
+	width: auto;
 	padding-bottom: 	
 }
 main p{
 	padding-top: 0em;	
 }
+
+/* Responsive */
+@media all and (max-device-width: 1280px){
+	font-size: 12px;
+}
+
