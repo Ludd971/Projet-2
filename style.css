@@ -20,9 +20,10 @@ aside h3{
 }
 .contact{
 	width: 100%;
-
 }
 #contact{
+	font-weight: bold;
+	color: #37474F;
 	text-align: left;
 	margin-right: 15px;
 	margin-left: 15px;
@@ -32,6 +33,7 @@ aside .propos{
 	flex-grow: 2;
 }
 #propos{
+	color: #37474F;
 	margin-right: 15px;
 	margin-left: 15px;	
 }
