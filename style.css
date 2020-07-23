@@ -2,168 +2,6 @@ body{
 	font-family: sans-serif;
 	display: flex;
 	flex-direction: row;
-	max-width: 1280px;
-
-}
-aside{
-	background-color: #FF7043; 
-	width: 35%;
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
-}
-.photo{
-	width: 100%;
-}
-aside h3{
-	background-color: #424242;
-	font-size: 35px;
-	text-align: center;
-	color: #FF7043;
-}
-.contact{
-	width: 100%;
-}
-#contact{
-	font-weight: bold;
-	color: #37474F;
-	text-align: left;
-	margin-right: 15px;
-	margin-left: 15px;
-}
-aside .propos{
-	text-align: left;
-	flex-grow: 2;
-}
-#propos{
-	text-align: justify;
-	color: #37474F;
-	margin-right: 15px;
-	margin-left: 15px;	
-}
-.loisirs{
-	width: 100%;
-}
-#loisirs{
-	display: flex;
-	justify-content: space-around;
-
-}
-aside .fas{
-	border: solid 2px black;
-	border-radius: 50% 50% 50% 50%;
-	width: 45px;
-	height: 45px;
-	line-height: 1.5;
-}
-main{
-	text-align: justify;
-	margin-left: 60px;
-	margin-right: 50px;
-	width: 65%;
-}
-.underline{
-	border-bottom: solid 1px red;
-}
-main .fas{
-	color: red;
-	border-bottom: red 1px;
-}
-main .fa-circle{
-	font-size: 10px;
-}
-main .fa-graduation-cap, .fa-toolbox, .fa-pencil-alt{
-	font-size: 35px;
-}
-header{
-	padding-top: 1em;
-	padding-bottom: 4em;
-}
-h1{
-	font-size: 60px;
-	margin-bottom: 0px;
-	margin-top: 90px;
-	font-weight: normal;
-}
-#name{
-	font-weight: bold;
-	color: red;
-}
-h2{
-	margin-top: 0px;
-	margin-bottom: 90px;
-	font-size: 25px
-}
-.h3{
-	display: flex;
-}
-.trait{
-	width: 100%;
-	border-bottom: solid 2px red;
-}
-main h3{
-	margin-top: -1em;
-	margin-bottom: 0.5em;
-	padding-left: 50px;
-	font-size: 30px;
-	margin-left: 25px;
-}
-main article{
-	display: flex;
-	flex-direction: row;
-	width: auto;
-	margin-top: 2em;
-	margin-bottom: 2em;
-	font-size: 20px;
-}
-main h4{
-	font-weight: bold;
-	text-transform: uppercase;
-	margin-top: 0.5em;
-	margin-bottom: 0em;
-	font-size: 20px;
-}
-main h5{
-	margin-top: 0.5em;
-	margin-bottom: -0.5em;
-	font-weight: normal;
-	font-size: 20px
-}
-.rside{
-	display: flex;
-	flex-direction: column;
-	width: 40%;
-	margin-right: 20px;
-}
-time{ 
-	display: flex;
-	width: auto;
-	margin-left: 30px;
-	margin-top: -1em;
-	font-weight: bold;
-}
-.lside{
-	display: flex;
-	flex-direction: column;
-	width: 60%;
-	margin-right: 15px;
-}
-.rec{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: auto;	
-}
-.bot{
-	flex-direction: column;
-	display: inline;
-	width: auto;
-	padding-bottom: 	
-}body{
-	font-family: sans-serif;
-	display: flex;
-	flex-direction: row;
-	max-width: 1280px;
 }
 aside{
 	background-color: #FF7043; 
@@ -317,7 +155,7 @@ time{
 
 /* responsive*/
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 980px){
 	body{
 		width: 100%;
 		display: flex;
@@ -348,10 +186,18 @@ time{
 		justify-content: center;
 		width: 100%;
 		text-align: center;
+		font-size: 2em;
+		margin-bottom: 1em;
+
+	}
+	main .lieu{
+		width: 100%;
+		margin-bottom: 2em;
 	}
 	.lside{
 		width: 100%;
 		text-align: center;
+		flex-wrap: wrap;
 	}
 	.rside{
 		width: 100%;
@@ -359,4 +205,17 @@ time{
 	aside{
 		width: 100%;
 	}
-	main .fas{
+	main .fa-graduation-cap, main .fa-pencil-alt, main .fa-toolbox{
+		display: flex;
+		flex-direction: row;
+	}
+	main .fa-bullseye{
+		display: flex;
+		flex-direction: row;
+		font-size: 10px;
+	}
+	main .fa-circle{
+		display: flex;
+		flex-direction: row;
+	}
+}
