@@ -167,6 +167,7 @@ time{
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		margin: 0;
 	}
 	main section{
 		width: 100%;
@@ -189,7 +190,7 @@ time{
 		text-align: center;
 		font-size: 2em;
 		margin-bottom: 1em;
-		margin: 0px;
+		margin: 0;
 	}
 	main .lieu{
 		width: 100%;
