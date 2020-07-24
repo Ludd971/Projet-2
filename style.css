@@ -218,4 +218,8 @@ time{
 		display: flex;
 		flex-direction: row;
 	}
+	main .rec{
+		flex-direction: column;
+		font-size: 2em;
+	}
 }
