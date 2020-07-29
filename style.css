@@ -20,21 +20,19 @@ aside section{
 	width: 100%;
 }
 #photo{
-	display: flex;
-	justify-content: center;
-
+	display: none;
 }
 img{
 	width: 250px;
 	height: 250px;
 	justify-content: center;
 	border-radius: 50%;
+	border: solid 2px white;
 }
 #PhotoContent{
 	justify-content: center;
 	text-align: center;
 	font-size: 50%;
-	border: solid 2px #e57373;
 }
 #ContactContent{
 	text-align: left;
@@ -165,9 +163,7 @@ time{
 	flex-direction: column;
 	display: inline;
 	width: auto;
-	padding-bottom:
 }
-
 
 /* responsive*/
 
