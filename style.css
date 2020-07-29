@@ -9,52 +9,62 @@ aside{
 	text-align: center;
 	display: flex;
 	flex-wrap: wrap;
-
 }
 aside h3{
 	background-color: #424242;
-	font-size: 35px;
+	font-size: 40px;
 	text-align: center;
 	color: #FF7043;
 }
 aside section{
 	width: 100%;
 }
-.photo{
+#photo{
+	display: flex;
+	justify-content: center;
 
 }
-.contact{
+img{
+	width: 250px;
+	height: 250px;
+	justify-content: center;
+	border-radius: 50%;
 }
-#contact{
+#PhotoContent{
+	justify-content: center;
+	text-align: center;
+	font-size: 50%;
+	border: solid 2px #e57373;
+}
+#ContactContent{
 	text-align: left;
-	margin-right: 15px;
-	margin-left: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 aside .propos{
 	text-align: left;
-	flex-grow: 2;
 }
 #propos{
-	margin-right: 15px;
-	margin-left: 15px;	
-}
-.loisirs{
-	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;	
 }
 #loisirs{
+	width: 100%;
+}
+#loisirsContent{
 	display: flex;
 	justify-content: space-around;
 }
 aside .fas{
 	border: solid 2px black;
-	border-radius: 50% 50% 50% 50%;
+	border-radius: 100%;
 	width: 45px;
 	height: 45px;
 	line-height: 1.5;
 }
 main{
-	margin-left: 60px;
-	margin-right: 50px;
+	padding-left: 60px;
+	padding-right: 50px;
 	width: 65%;
 }
 .underline{
@@ -66,18 +76,19 @@ main .fas{
 }
 main .fa-circle{
 	font-size: 10px;
+	padding-bottom: 5px;
 }
 main .fa-graduation-cap, .fa-toolbox, .fa-pencil-alt{
 	font-size: 35px;
 }
 header{
-	padding-top: 1em;
-	padding-bottom: 4em;
+	padding-top: 7em;
+	padding-bottom: 7em;
 }
 h1{
-	font-size: 60px;
-	margin-bottom: 0px;
-	margin-top: 90px;
+	font-size: 70px;
+	margin: 0;
+	padding-bottom: 0; 
 	font-weight: normal;
 }
 #name{
@@ -85,9 +96,10 @@ h1{
 	color: red;
 }
 h2{
-	margin-top: 0px;
+	margin-top:10px;
 	margin-bottom: 90px;
-	font-size: 25px
+	font-size: 40px;
+	color:#263238;
 }
 .h3{
 	display: flex;
@@ -107,8 +119,8 @@ main article{
 	display: flex;
 	flex-direction: row;
 	width: auto;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	padding-top: 2em;
+	padding-bottom: 1em;
 	font-size: 20px;
 }
 main h4{
@@ -133,7 +145,7 @@ main h5{
 time{ 
 	display: flex;
 	width: auto;
-	margin-left: 30px;
+	padding-left: 50px;
 	margin-top: -1em;
 	font-weight: bold;
 }
@@ -153,8 +165,9 @@ time{
 	flex-direction: column;
 	display: inline;
 	width: auto;
-	padding-bottom: 	
+	padding-bottom:
 }
+
 
 /* responsive*/
 
@@ -162,12 +175,15 @@ time{
 	body{
 		display: flex;
 		flex-flow: column-reverse wrap;
+		margin: 0;
+		text-align: center;
 	}
 	main{
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		margin: 0;
+		padding: 0;
 	}
 	main section{
 		width: 100%;
@@ -183,18 +199,24 @@ time{
 		justify-content: center;
 		text-align: center;
 	}
+	aside {
+		width: 100%;
+	}
 	main time{
 		display: flex;
 		justify-content: center;
 		width: 100%;
 		text-align: center;
-		font-size: 2em;
+		font-size: 1em;
 		margin-bottom: 1em;
 		margin: 0;
 	}
 	main .lieu{
 		width: 100%;
-		margin-bottom: 2em;
+		padding-bottom: 1em;
+	}
+	main .lieu2{
+		padding-bottom: 1em;
 	}
 	.lside{
 		width: 100%;
@@ -206,9 +228,6 @@ time{
 		width: 100%;
 		margin: 0;
 	}
-	aside{
-		width: 100%;
-	}
 	main .fa-graduation-cap, main .fa-pencil-alt, main .fa-toolbox{
 		display: flex;
 		flex-direction: row;
@@ -217,14 +236,26 @@ time{
 		display: flex;
 		flex-direction: row;
 		font-size: 10px;
+		padding-left: 50%;
 		margin: 0;
 	}
 	main .fa-circle{
 		display: flex;
 		flex-direction: row;
+		padding-left: 50%;
 	}
 	main .rec{
 		flex-direction: column;
-		font-size: 2em;
+		font-size: 1em;
+	}
+	#photo{
+		display: flex;
+		justify-content: center;
+	}
+	img{
+		justify-content: center;
+	}
+	#PhotoContent{
+		text-align: center;
 	}
 }
