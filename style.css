@@ -140,6 +140,9 @@ time{
 	margin-top: -1em;
 	font-weight: bold;
 }
+.lieu{
+	padding-left: 50px;
+}
 .lside{
 	display: flex;
 	flex-direction: column;
