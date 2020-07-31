@@ -19,9 +19,6 @@ aside h3{
 aside section{
 	width: 100%;
 }
-#photo{
-	display: none;
-}
 img{
 	width: 250px;
 	height: 250px;
@@ -70,21 +67,21 @@ main{
 }
 main .fas{
 	color: red;
-	border-bottom: red 1px;
 }
 main .fa-circle{
-	font-size: 10px;
+	font-size: 15px;
 	padding-bottom: 5px;
 }
 main .fa-graduation-cap, .fa-toolbox, .fa-pencil-alt{
 	font-size: 35px;
 }
 header{
-	padding-top: 7em;
-	padding-bottom: 7em;
+	margin-top: 10em;
+	margin-bottom: 10em;
+	font-weight: normal;
 }
 h1{
-	font-size: 70px;
+	font-size: 80px;
 	margin: 0;
 	padding-bottom: 0; 
 	font-weight: normal;
@@ -94,24 +91,20 @@ h1{
 	color: red;
 }
 h2{
-	margin-top:10px;
-	margin-bottom: 90px;
 	font-size: 40px;
 	color:#263238;
+	margin-top: 0.1em;
 }
 .h3{
 	display: flex;
-}
-.trait{
 	width: 100%;
 	border-bottom: solid 2px red;
+
 }
 main h3{
-	margin-top: -1em;
-	margin-bottom: 0.5em;
-	padding-left: 50px;
+	margin-top: 0;
+	padding-left: 30px;
 	font-size: 30px;
-	margin-left: 25px;
 }
 main article{
 	display: flex;
