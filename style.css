@@ -1,5 +1,5 @@
 body{
-	font-family: /* chercher une police */, sans-serif;
+	font-family: 'Inter', sans-serif;
 	display: flex;
 	flex-direction: row;
 }
@@ -167,12 +167,12 @@ main h5{
 		display: flex;
 		flex-flow: column-reverse wrap;
 		margin: 0;
-		text-align: center;
 	}
 	main{
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 		margin: 0;
 		padding: 0;
 	}
@@ -180,33 +180,31 @@ main h5{
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		text-align: center;
 	}
 	main article{
-		width:  100%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		text-align: center;
+		align-items: center;
 	}
 	aside {
 		width: 100%;
 	}
-	main time{
+	main .time{
 		display: flex;
 		justify-content: center;
-		width: 100%;
 		text-align: center;
 		font-size: 1em;
 		margin-bottom: 1em;
 		margin: 0;
+		padding:0;
 	}
 	main .lieu{
 		padding-bottom: 1em;
+		padding-left: 0;
 	}
 	.lside{
-		width: 100%;
+		align-items: center;
 		text-align: center;
 		flex-wrap: wrap;
 		margin: 0;
