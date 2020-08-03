@@ -1,5 +1,5 @@
 body{
-	font-family: sans-serif;
+	font-family: /* chercher une police */, sans-serif;
 	display: flex;
 	flex-direction: row;
 }
@@ -19,17 +19,16 @@ aside h3{
 aside section{
 	width: 100%;
 }
+#Photo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 img{
 	width: 250px;
 	height: 250px;
-	justify-content: center;
 	border-radius: 50%;
 	border: solid 2px white;
-}
-#PhotoContent{
-	justify-content: center;
-	text-align: center;
-	font-size: 50%;
 }
 #ContactContent{
 	text-align: left;
@@ -133,7 +132,7 @@ main h5{
 	width: 40%;
 	margin-right: 20px;
 }
-time{ 
+.time{ 
 	display: flex;
 	width: auto;
 	padding-left: 50px;
@@ -204,10 +203,6 @@ time{
 		margin: 0;
 	}
 	main .lieu{
-		width: 100%;
-		padding-bottom: 1em;
-	}
-	main .lieu2{
 		padding-bottom: 1em;
 	}
 	.lside{
@@ -243,6 +238,7 @@ time{
 	#photo{
 		display: flex;
 		justify-content: center;
+		align-items: 
 	}
 	img{
 		justify-content: center;
