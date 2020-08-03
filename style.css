@@ -42,10 +42,10 @@ aside .propos{
 	padding-right: 15px;
 	padding-left: 15px;	
 }
-#loisirs{
+#Loisirs{
 	width: 100%;
 }
-#loisirsContent{
+#LoisirsContent{
 	display: flex;
 	justify-content: space-around;
 }
@@ -187,9 +187,6 @@ main h5{
 		flex-direction: column;
 		align-items: center;
 	}
-	aside {
-		width: 100%;
-	}
 	main .time{
 		display: flex;
 		justify-content: center;
@@ -233,15 +230,7 @@ main h5{
 		flex-direction: column;
 		font-size: 1em;
 	}
-	#photo{
-		display: flex;
-		justify-content: center;
-		align-items: 
-	}
-	img{
-		justify-content: center;
-	}
-	#PhotoContent{
-		text-align: center;
+	aside {
+		width: 100%;
 	}
 }
