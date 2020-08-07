@@ -262,4 +262,7 @@ p{
 	aside h3{
 		font-size: 30px;
 	}
+	main.bot{
+		align-items: center;
+	}
 }
