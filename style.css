@@ -172,6 +172,12 @@ main h5{
 		flex-flow: column-reverse wrap;
 		margin: 0;
 	}
+	h1{
+		font-size: 60px;
+	}
+	h2{
+		font-size: 30px;
+	}
 	main{
 		width: 100%;
 		display: flex;
@@ -190,6 +196,9 @@ main h5{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+	main h3{
+		font-size: 24px;
 	}
 	main .time{
 		display: flex;
