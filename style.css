@@ -48,13 +48,14 @@ aside .propos{
 }
 #Loisirs{
 	width: 100%;
+	color: #424242;
 }
 #LoisirsContent{
 	display: flex;
 	justify-content: space-around;
 }
 aside .fas{
-	border: solid 2px black;
+	border: solid 2px #424242;
 	border-radius: 100%;
 	width: 45px;
 	height: 45px;
@@ -66,10 +67,10 @@ main{
 	width: 65%;
 }
 .underline{
-	border-bottom: solid 1px red;
+	border-bottom: solid 1px #FF7043;
 }
 main .fas{
-	color: red;
+	color: #FF7043;
 }
 main .fa-circle{
 	font-size: 15px;
@@ -91,7 +92,7 @@ h1{
 }
 #name{
 	font-weight: bold;
-	color: red;
+	color: #FF7043;
 }
 h2{
 	font-size: 40px;
@@ -101,7 +102,7 @@ h2{
 .h3{
 	display: flex;
 	width: 100%;
-	border-bottom: solid 2px red;
+	border-bottom: solid 2px #FF7043;
 
 }
 main h3{
@@ -162,6 +163,9 @@ main h5{
 	flex-direction: column;
 	display: inline;
 	width: auto;
+}
+p{
+	text-align: justify;
 }
 
 /* responsive*/
